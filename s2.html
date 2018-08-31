@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>audio and video</title>
+  </head>
+  <body>
+    <audio controls>
+      <source src="song.mp3" type="audio/mp3">
+  </audio>
+  <video controls height="200px" width="200px" onclick="sujii()" id="kummara">
+    <source src="video.mp4" type="video/mp4">
+    </video>
+    <button type="button" onclick="paly()" name="button">play</button>
+      <button type="button" onclick="pause()" name="button">pause</button>
+  </body>
+  <script type="/text/javascript">
+  function sujii(){
+  var v=document.getElementById("kummara");
+  v.play();
+}
+function play(){
+    var v=document.getElementById("kummara");
+    v.play();
+}
+function pause(){
+    var v=document.getElementById("kummara");
+  v.pause();
+}
+</script>
+</html>
